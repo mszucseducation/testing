@@ -13,7 +13,7 @@ import { Card, Icon, Image } from 'semantic-ui-react'
 // Why SSG is important: if response changes depending who is viewing the page
 export default function pokemon({pokeman}) {
     console.log(pokeman);
-    return (
+    return ( 
         <Layout title={pokeman.name}>
             <Card>
                 <Image className="mx-auto w-2/4" src={pokeman.image} wrapped ui={false} />
